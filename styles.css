@@ -1,0 +1,77 @@
+html {
+    background-color: black;
+    height: 100vh;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    font-family: -apple-system, BlinkMacSystemFont, ".SFNSDisplay-Regular", 'Helvetica Neue', 'Calibri', 'Helvetica', 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-image: radial-gradient(circle, rgba(196,0,255,0.3) 0%, rgba(0,0,0,1.0) 100%);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+p {
+    color: white;
+    text-align: center;
+}
+
+.noSelect {
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+#menuContainer {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#logo {
+    height: 25%;
+    width: auto;
+}
+
+.buttonLink {
+    text-decoration: none;
+}
+
+.button {
+    background-color: rgba(128, 128, 128, 0.5);
+    padding: 0.5em;
+    margin: 0.5em;
+    font-weight: bold;
+    font-size: 1em;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    text-align: center;
+
+    transform: scale(100%);
+    transition: transform 0.15s linear
+}
+
+.button:hover {
+    transform: scale(115%);
+    transition: transform 0.15s linear
+}
+
+.button:active {
+    transform: scale(95%);
+    transition: transform 0.15s linear
+}
