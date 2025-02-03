@@ -5,8 +5,10 @@
         "appIDs": [
           "6740234483.com.lbastudios.MindDash"
         ],
-        "paths": [
-          "/"
+        "components": [
+          {
+            "/": "/"
+          }
         ]
       }
     ]
